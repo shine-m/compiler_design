@@ -1,0 +1,13 @@
+.h file only declaratiopn
+
+gcc -E hello.c > hello.i
+
+gcc -S hello.i
+
+gcc -S -masm=intel hello.i
+
+makefile:
+    # gcc -c -o hellofunc.o hellofunc.c
+	# gcc -c -o helloMake.o helloMake.c
+	# gcc -o hello hellofunc.o helloMake.o
+	# hello
