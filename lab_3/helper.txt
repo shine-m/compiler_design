@@ -1,0 +1,8 @@
+C:\masm32\bin\ml /c /coff /Cp filename.asm && C:\masm32\bin\link -entry:main /subsystem:console filename.obj && filename
+
+C:\masm32\bin\ml /c /coff /Cp asm5.asm && C:\masm32\bin\link -entry:main /subsystem:console asm5.obj && asm5
+
+
+C:\masm32\bin\ml /c /coff /Cp assignment.asm && C:\masm32\bin\link -entry:main /subsystem:console assignment.obj && assignment
+
+
